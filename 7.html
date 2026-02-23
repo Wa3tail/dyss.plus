@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第七章</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 200px;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    line-height: 1.8; 
+    background-color:#bebeb5;
+    color: #333;
+    overflow-x: hidden;
+}
+.full-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    position: relative;
+}
+nav{
+    background: #a5a278;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+.logo{
+    opacity: 70%;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 10%;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+#home{
+    padding-top: 100px;
+}
+.vd{
+    width: 600px;
+    height: 400px;
+}
+
+.a1 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.a1{
+   width: 100%;
+   height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+.A1{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px #3333339e;
+    
+}
+.tou{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+.tou:hover{
+    background-color: #7a785b;
+}
+.dakuang{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px;
+
+
+}
+.tup img{
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px #3333335d;
+}
+/* @keyframes aa{
+    0%,25%{
+        transform:translateX(0);
+    }
+    33%,50%{
+         transform:translateX(-33%);
+    }
+    66%,90%{
+        transform:translateX(-66%);
+    }
+    100%{
+         transform:translateX(0);
+    }
+} */
+
+</style>
+<body>
+    <nav>
+        <img onclick="sa('你点这个干啥')" class="logo" src="./4548F0DA710AB7B290D072DD3028E719.jpg" alt="1">
+        <div class="tou"><a href="./dyss.html">首页</a></div>
+        <div class="tou"><a href="#home">回到标题</a></div>
+        <div class="tou"><a href="#tiaozhuan">章节跳转</a></div>
+        <div class="tou"><a href="#link">联系我们</a></div>
+        
+        
+        
+    </nav>
+    <section id="home" class="full-section">
+        <div class="avatar-wrap" id="avatarWrap">
+
+            <h1>第七章 风暴前夕</h1>
+            <p style="color: #787657; margin-bottom: 20px;">本章作者：小谷歌</p>
+            <p style="line-height: 1.8; color: #3e3c2e; font-size: 16px; width: auto;">
+
+               <br> &emsp;&emsp;在罗基武等人的治理下，基文村逐渐恢复了活力。
+<br> &emsp;&emsp;古闻鸡提出的理论通俗易懂，在他的大力推进下，基文村文盲率降至历史极低值。而李云君统筹物资调配，使基文村过上了人人温饱的好日子。
+<br> &emsp;&emsp;然而，基文村的外部环境却十分严峻。
+<br> &emsp;&emsp;在日天城，周昀离听着副官关于基文村的报告，一股怒气在他心中升腾而起。
+<br> &emsp;&emsp;"该死的罗基武，不仅抢了我三分之二的土地，还把我赶到这日天城来，结果你倒过得逍遥！"
+<br> &emsp;&emsp;看着身旁被自己突然而来的怒气吓得不知所措的副官，周昀离问道："喂，你有没有什么解决办法啊？"
+<br> &emsp;&emsp;周昀离的副官是一位附民，没有名字，平时只能以"喂"一类的词语指代。
+<br> &emsp;&emsp;副官听到主君的问题，先是一愣，随后回答道："卑职最近确有发现一个破绽，皇上要求每个诸侯每月都要定期提交工作报告，而卑职发现罗基武上月并未提交相关报告，只需派人去都城向皇上告发，定能让皇上对其加以惩戒，杀一杀那小子的锐气！"
+<br> &emsp;&emsp;"此计甚好，那就交给你去负责了。"
+<br> &emsp;&emsp;"诺。"
+<br> &emsp;&emsp;……
+<br> &emsp;&emsp;几日后，在基文市，罗基武三人正聚在议事厅里，一起商讨基文村所处的局势。
+<br> &emsp;&emsp;罗基武率先发言道："如今基文村的外部环境很不乐观，我们隔壁的周国因为我们抢占了他们的土地而一直对我们虎视眈眈，只怕他们会对我们百般阻挠。"
+<br> &emsp;&emsp;古闻鸡说："目前我们只有先稳定内部局势，紧抓发展，周国方面也就只有见招拆招了。"
+<br> &emsp;&emsp;李云君说："我们难道只有用这么保守的应对方式了吗？"
+<br> &emsp;&emsp;正当三人一筹莫展之际，忽然一队士兵破门而入，沿着过道站成两列。
+<br> &emsp;&emsp;随后，在两队士兵中间，一位使者趾高气昂地踏了进来，同时大呼：
+<br> &emsp;&emsp;"圣旨到！"
+<br> &emsp;&emsp;三人吓得赶快跪地听令。
+<br> &emsp;&emsp;"皇上昭曰：罗基武未按时把完成政务报告，涉嫌怠慢公职，藐视权威，发配肖州！"
+<br> &emsp;&emsp;"是你自己走还是我帮你走？"
+<br> &emsp;&emsp;再看罗基武，此时已是被吓得脸色惨白。
+<br> &emsp;&emsp;“完了，我怎么把这事儿给忘了，这该如何是好？”
+<br> &emsp;&emsp;他望向古闻鸡，好像想要从他那得到什么帮助。
+<br> &emsp;&emsp;"基武哥，皇上的命令可不能不从啊！这肖州离此地也并不遥远，我们一定会帮你回来的！"古闻鸡这么说道，像是对罗基武的回应。
+<br> &emsp;&emsp;"好！我跟你走！"
+<br> &emsp;&emsp;在罗基武与跟随着使者离开后两人才开始焦急地讨论对策。
+<br> &emsp;&emsp;"闻鸡兄，我感觉这事有蹊跷，一定是周国在从中作梗。"
+<br> &emsp;&emsp;"事到如今，这笔账只有给他们先记上，以后再找他们慢慢算，我们先考虑现在怎么办。"
+<br> &emsp;&emsp;"哎，如今领导权仍在罗基武手中，而他又不在朝内，说白了，咱们现在就是个无政府状态，早知道让他把领导权给我们再走了。"
+<br> &emsp;&emsp;"云君老弟，基文村不可一日无王，如今我们只有一条路可走了。”
+<br> &emsp;&emsp;李云君随即色变："你是说……政变？"
+<br> &emsp;&emsp;"不，我只是想在这豺狼环伺中，守住基武哥的江山，等待他的回归罢了，要是我们是民主政体可就没有这些问题了。"
+<br> &emsp;&emsp;李云君又担心地问道："可是万一基文村长没法解决问题或者不听我们解释该怎么办？"
+<br> &emsp;&emsp;"哼，那就代表我看错他了，他也就没必要待在这个位置上了！"
+<br> &emsp;&emsp;这句话如惊雷般炸在了李云君的心头，他想说点什么，可一股惊愕扼住了他的喉头。他不得不承认古闻鸡的说法是正确的。
+<br> &emsp;&emsp;为什么？为什么他在说出这句话时如此从容不迫，我们几个不是朋友吗？李云君如此不安地思索着。
+<br> &emsp;&emsp;古闻鸡像是看破了他不安的表情，又说道："云君老弟啊，你也不希望友谊成为我们前进的绊脚石吧！"
+<br> &emsp;&emsp;古闻鸡其实是一个相当重友谊的人，但必要时，他也会坚决地扫清一切障碍。
+<br> &emsp;&emsp;李云君原本还想找出什么理由反驳他，但又不得不承认古闻鸡的说法是正确的。在激烈的思想斗争后，李云君做出了决定。
+<br> &emsp;&emsp;"好，我答应你！但基武哥返回后必须把权力还给他，我可不愿背上逆反的骂名！"
+<br> &emsp;&emsp;"那是当然！"
+<br> &emsp;&emsp;李云君望向乌云密布的天空。
+<br> &emsp;&emsp;"就要下雨了。"
+<br> &emsp;&emsp;“是啊，暴风雨就要来了。The storm is coming!”
+
+           
+            
+        </div>
+    </section>
+      
+    
+
+    </section>
+
+    <section id="tiaozhuan" class="full-section">
+        <h2>跳转到：</h2>
+        <ol>
+            <li><a href="./1.html">第一章</a></li>
+            <li><a href="./2.html">第二章</a></li>
+            <li><a href="./3.html">第三章</a></li>
+            <li><a href="./4.html">第四章</a></li>
+            <li><a href="./5.html">第五章</a></li>
+            <li><a href="./6.html">第六章</a></li>
+            <li><a href="./7.html">第七章</a></li>
+            <li><a href="./8.html">第八章</a></li>
+            <li><a href="./9.html">第九章</a></li>
+            <li><a href="./10.html">第十章</a></li>
+            <li><a href="./11.html">第十一章</a></li>
+            <li><a href="./12.html">第十二章</a></li>
+            <li><a href="./13.html">第十三章</a></li>
+            
+            
+        </ol>
+    </section>
+
+    <section id="link" class="full-section">
+        <h2>联系我们</h2>
+        <p style="color: #a5a278; margin-bottom: 20px;">讨论QQ群：1056740196</p>
+        <a href="https://jntm.zkllab.com/">🐓</a>
+    
+    </section>
+</body>
+<script>
+function sa(){
+      alert("i am the stor...不好意思走错了")
+}
+const track=document.querySelector('.a1');
+const imgs=document.querySelectorAll('.a1 img');
+let index=0;
+track.style.width=`${imgs.lenth*600}px`;
+setInterval(()=>{
+    index=(index+1)%imgs.length;
+    track.style.transform=`translateX(-${index*600}px)`;
+},3000);
+</script>
+
+
+</html>

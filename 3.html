@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第三章</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 200px;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    line-height: 1.8; 
+    background-color:#bebeb5;
+    color: #333;
+    overflow-x: hidden;
+}
+.full-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    position: relative;
+}
+nav{
+    background: #a5a278;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+.logo{
+    opacity: 70%;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 10%;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+#home{
+    padding-top: 100px;
+}
+.vd{
+    width: 600px;
+    height: 400px;
+}
+
+.a1 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.a1{
+   width: 100%;
+   height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+.A1{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px #3333339e;
+    
+}
+.tou{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+.tou:hover{
+    background-color: #7a785b;
+}
+.dakuang{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px;
+
+
+}
+.tup img{
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px #3333335d;
+}
+/* @keyframes aa{
+    0%,25%{
+        transform:translateX(0);
+    }
+    33%,50%{
+         transform:translateX(-33%);
+    }
+    66%,90%{
+        transform:translateX(-66%);
+    }
+    100%{
+         transform:translateX(0);
+    }
+} */
+
+</style>
+<body>
+    <nav>
+        <img onclick="sa('你点这个干啥')" class="logo" src="./4548F0DA710AB7B290D072DD3028E719.jpg" alt="1">
+        <div class="tou"><a href="./dyss.html">首页</a></div>
+        <div class="tou"><a href="#home">回到标题</a></div>
+        <div class="tou"><a href="#tiaozhuan">章节跳转</a></div>
+        <div class="tou"><a href="#link">联系我们</a></div>
+        
+        
+        
+    </nav>
+    <section id="home" class="full-section">
+        <div class="avatar-wrap" id="avatarWrap">
+
+            <h1>第三章 封侯路（上）</h1>
+            <p style="color: #787657; margin-bottom: 20px;">本章作者：向蕉</p>
+            <p style="line-height: 1.8; color: #3e3c2e; font-size: 16px; width: auto;">
+               <br> &emsp;&emsp;接下来的一年里，三人分工明确，古闻鸡在官场积累了许多人脉，罗基武也在借收徒为由私募兵卒，而李云君则借经商之机走私兵甲用以武装部队。
+而这次在都城的一次聚会中，罗基武吐槽道：“哎，我今年才招募500个士兵，而李云君的装备也只够武装300名士兵，就这点兵力反个毛啊！”
+<br>&emsp;&emsp;古文鸡说：“你也不容易，这种方式看来是行不通的，我们不如换个方向，我已经联系到几个流民头目，只要挑拨他们去造反，我们再率领部队去平定叛乱建立功业，继而拜将封侯。”
+<br>&emsp;&emsp;“行。”
+<br>&emsp;&emsp;在肖城城郊的某个隐秘据点，有三人正在交谈着什么。
+<br>&emsp;&emsp;“老狐狸，那叫古闻鸡的官家的话可当真？咱们干的可都是腰上挂脑袋的买卖啊！”
+说话的是一位身长八尺，豹头环眼，燕颔虎须，声若巨雷，势如奔马的汉子。
+<br>&emsp;&emsp;“蛮牛，那官家我相会过几次，不但资助钱财，而且向我等提上计策。况且我已让鼠辈暗中探察底细，做不得假。”说话之人手执玉佩，用其拍打胸甲。
+<br>&emsp;&emsp;“牛哥，你就放一百个心吧，我跟踪几日那官家，确定狐哥所言为真。”一个身材矮小，尖嘴猴腮的人回道。
+<br>&emsp;&emsp;“那就今晚召集弟兄攻破那肖城。”
+<br>&emsp;&emsp;“一言为定！”
+<br>&emsp;&emsp;与此同时，肖城内一处破旧的街道，三五群蒙头垢面的百姓在大树下闲聊。
+<br>&emsp;&emsp;“今天肖老爷子七十大寿，那群狗奴才叫我们去孝敬他，这该如何是好？”
+<br>&emsp;&emsp;“上次肖老爷过生日，将刘老汉家的黄花大闺女强行做妾，刘老汉不答应，结果硬生生被打断了一条腿！”
+<br>&emsp;&emsp;“哎，肖家真是禽兽不如啊！”
+<br>&emsp;&emsp;看着远处走来的几个士兵，众人又默默散去。
+<br>&emsp;&emsp;入夜后，肖家里一个满脸横肉，身着锦衣绸缎的老爷正怒不可遏：“混账东西，让你们去让老百姓孝敬我，结果竟这样办事不力！”
+<br>&emsp;&emsp;三名家仆赶忙跪地磕头道：“大人息怒啊！小人罪该万死，罪该万死！”
+<br>&emsp;&emsp;“罢了，今天日子不错，饶你们一命！”
+<br>&emsp;&emsp;“多谢老爷。”三人拱手，感激涕零道。
+<br>&emsp;&emsp;与此同时，在城外，点燃的火把划过寂静的夜，金戈银枪的敲击声早已惊走丛林中的动物。
+在喧哗的军营中，蛮牛身着铁衣，威风凛凛。他站在早已搭好的点将台，向着眼前近百精卒，以及外围近万的流民，拿出古闻鸡备好的锦囊，扯着嗓子大喊。
+<br>&emsp;&emsp;“诸位，那城内肖家草菅人命，但朝廷视而不见，乃至于肖家无法无天。诸位都多少受肖家盘剥，诸位性命在于天，在于地，不在于肖家。苍天已死，黄天当立，岁在甲子，天下大吉。让我们一起灭了那肖家！”
+<br>&emsp;&emsp;“捉拿肖家一人赏白银三两，提拿肖老爷赏黄金三两。攻破肖城，按功劳分配土地，到时候人人有地耕！”
+<br>&emsp;&emsp;精卒方阵人面色如常，而流民方阵早已炸开了锅，面色潮红，恨不得立马上阵杀敌。
+老狐狸看到此场景，有此嗤笑，心想流民就是流民，给点好处就激动成这样，到时候可得好好当炮灰，至于许诺的土地自然也只在话语中。
+肖城内，打更人敲响了戌时的锣鼓。<br>&emsp;&emsp;他听到一阵尖锐的啸声，低头一看，地上突现几只箭。
+<br>&emsp;&emsp;“不好了！遇袭！遇袭！”
+<br>&emsp;&emsp;随着打更人的大喊，一场攻城战也拉开了序幕。
+<br>&emsp;&emsp;义军先是用一波箭雨招呼了城上的肖军，随后再将流民置于队列前，消耗肖军的箭支储备。而肖军仗着城墙优势勉强做出反抗。用储备的金汁，石块招待叛军。
+<br>&emsp;&emsp;“守城队长呢，他那个混账东西在哪里？”赶来的支队长问道。
+<br>&emsp;&emsp;“给肖老爷子尽孝去了，而且他不在，守城的弟兄也跑了一半。”一位士兵答道。
+<br>&emsp;&emsp;“对面目测有上万人，我们只有几百人，一个月几两俸银，玩什么命啊！支队长，请让开我收拾一下东西走了得了。”
+<br>&emsp;&emsp;支队长闻言，脸色一变，手起刀快，将那位士兵砍头，并举起他的头来，对着想逃跑的人喊道“凡逃者依军法处置”。
+城墙上意图逃跑的士兵瞬间围过来。
+<br>&emsp;&emsp;“继续抵抗，我们肯定要死，而支队长只有一个人，我们有十几号人，砍他就有一线生机！”一个士兵喊道。
+闻言，其余士兵不再犹豫，一起将支队长砍头后作鸟兽散去。
+<br>&emsp;&emsp;蛮牛与老狐狸站在点将台，看着前方即将攻破的城墙，心中大喜。蛮牛说道：“若非鼠辈在城里安插几个细作，我们又怎能得到这些宝藏和轻易的攻城结果。”
+<br>&emsp;&emsp;戌时尚未结束，冲入城墙里的先头部队便打开城门，迎取大军进城。
+<br>&emsp;&emsp;叛军入城以后，肖老爷吓得屁滚尿流，逃地道躲藏，这时候，地道中出一道人影。
+<br>&emsp;&emsp;“肖老爷，你可认得我。”
+<br>&emsp;&emsp;“是你，古闻鸡。”
+<br>&emsp;&emsp;肖老爷面色骇然，不曾想在此遇仇敌。
+<br>&emsp;&emsp;“饶我一命，闻鸡兄，只要你留我一条命，我就将家财全交给你。”
+<br>&emsp;&emsp;古闻鸡闻言，面色冷漠，而回答肖老爷的，只有贯出的长枪。
+<br>&emsp;&emsp;“果然，肖家的人全都一个样！”
+<br>&emsp;&emsp;当古闻鸡走出地道，望着等待的罗基武和李云君说道：“阶段一很成功，是时候启动阶段二了。”
+<br>&emsp;&emsp;“遵闻鸡兄。”二人拱手应答道。
+
+            
+           
+            
+        </div>
+    </section>
+      
+    
+
+    </section>
+
+    <section id="tiaozhuan" class="full-section">
+        <h2>跳转到：</h2>
+        <ol>
+           <li><a href="./1.html">第一章</a></li>
+            <li><a href="./2.html">第二章</a></li>
+            <li><a href="./3.html">第三章</a></li>
+            <li><a href="./4.html">第四章</a></li>
+            <li><a href="./5.html">第五章</a></li>
+            <li><a href="./6.html">第六章</a></li>
+            <li><a href="./7.html">第七章</a></li>
+            <li><a href="./8.html">第八章</a></li>
+            <li><a href="./9.html">第九章</a></li>
+            <li><a href="./10.html">第十章</a></li>
+            <li><a href="./11.html">第十一章</a></li>
+            <li><a href="./12.html">第十二章</a></li>
+            <li><a href="./13.html">第十三章</a></li>
+            
+            
+        </ol>
+    </section>
+
+    <section id="link" class="full-section">
+        <h2>联系我们</h2>
+        <p style="color: #a5a278; margin-bottom: 20px;">讨论QQ群：1056740196</p>
+        <a href="https://jntm.zkllab.com/">🐓</a>
+    </section>
+</body>
+<script>
+function sa(){
+      alert("兄弟文笔真好吧哼哼哼")
+}
+const track=document.querySelector('.a1');
+const imgs=document.querySelectorAll('.a1 img');
+let index=0;
+track.style.width=`${imgs.lenth*600}px`;
+setInterval(()=>{
+    index=(index+1)%imgs.length;
+    track.style.transform=`translateX(-${index*600}px)`;
+},3000);
+</script>
+
+
+</html>

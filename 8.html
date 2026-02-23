@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第八章</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 200px;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    line-height: 1.8; 
+    background-color:#bebeb5;
+    color: #333;
+    overflow-x: hidden;
+}
+.full-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    position: relative;
+}
+nav{
+    background: #a5a278;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+.logo{
+    opacity: 70%;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 10%;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+#home{
+    padding-top: 100px;
+}
+.vd{
+    width: 600px;
+    height: 400px;
+}
+
+.a1 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.a1{
+   width: 100%;
+   height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+.A1{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px #3333339e;
+    
+}
+.tou{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+.tou:hover{
+    background-color: #7a785b;
+}
+.dakuang{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px;
+
+
+}
+.tup img{
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px #3333335d;
+}
+/* @keyframes aa{
+    0%,25%{
+        transform:translateX(0);
+    }
+    33%,50%{
+         transform:translateX(-33%);
+    }
+    66%,90%{
+        transform:translateX(-66%);
+    }
+    100%{
+         transform:translateX(0);
+    }
+} */
+
+</style>
+<body>
+    <nav>
+        <img onclick="sa('你点这个干啥')" class="logo" src="./4548F0DA710AB7B290D072DD3028E719.jpg" alt="1">
+        <div class="tou"><a href="./dyss.html">首页</a></div>
+        <div class="tou"><a href="#home">回到标题</a></div>
+        <div class="tou"><a href="#tiaozhuan">章节跳转</a></div>
+        <div class="tou"><a href="#link">联系我们</a></div>
+        
+        
+        
+    </nav>
+    <section id="home" class="full-section">
+        <div class="avatar-wrap" id="avatarWrap">
+
+            <h1>第八章 鸡君之乱</h1>
+            <p style="color: #787657; margin-bottom: 20px;">本章作者：小谷歌</p>
+            <p style="line-height: 1.8; color: #3e3c2e; font-size: 16px; width: auto;">
+               <br> &emsp;&emsp;
+           古闻鸡联结李云君发动叛乱的消息如洪水般涌向了四面八方。
+<br> &emsp;&emsp;起初，人们还不肯相信这个消息，还互相打趣的说道：“叛乱？你菌子吃多了吧！他们三人情同手足，怎么会互相背叛呢？”
+<br> &emsp;&emsp;但是随后古闻鸡与李云君联合发表声明，要将基文村长改为基文小兵。这才证明了这一传言，将人们拉进了惊异的旋涡之中。
+<br> &emsp;&emsp;鸡君叛军迅速控制了基文村三分之二的土地，并气势汹汹地要向罗基武的直属领地进发。
+<br> &emsp;&emsp;由于二人下属的部队都是附民，本身就是二人的一部分，叛军自然也就没有了后顾之忧。而反观基武军方面，因罗基武仍流放未归，导致基武军内部组织混乱，战力低下。
+<br> &emsp;&emsp;从兵力方面来看，基武军也只有叛军的约二分之一，且双方装备实力相当。不论如何看，叛军都能一举平推，占领基文村全境。
+<br> &emsp;&emsp;自然，鸡君之乱的消息也迅速传到了日天城。周昀离听着副官的报告，不由大笑道：“哈哈哈哈！罗基武啊，没想到你也有今天！我周昀离的机会来了，立即通知全军，做好随时出征的准备！”
+<br> &emsp;&emsp;听到主君的命令，下官大惊道：“请主君三思啊，以往从未有过诸侯擅自相伐的先例，这可是逆反朝廷的行为啊！”
+<br> &emsp;&emsp;周昀离不由大怒：“朝廷？朝廷他有几个师？现在中央衰微，神龟寿尽，我这是在给以后抢占先机！没听到我的命令吗？还不快去！”
+<br> &emsp;&emsp;副官只好匆匆行了个礼，然后立即退下了。
+<br> &emsp;&emsp;……
+<br> &emsp;&emsp;而让众人吃惊的远不止两人联合叛乱一事，更是在两人明可以大举进攻，一举夺取胜利之际，却选择了被动地固守其既有土地。
+<br> &emsp;&emsp;被贬肖州的罗基武自然也听闻了此事，与众人不同，他迅速判断出二人不可能是真正的叛乱，这一定是拯救他回朝的办法，他一定要把握住这个机会。
+<br> &emsp;&emsp;而此时，罗基武已经补齐了要求的政务报告，于是赶紧禀报朝廷：“鄙人已经补完了所有报告，但臣的属地上出现了叛乱行为。这本是臣的罪过，但望给臣一个机会，平定叛乱，若此事不成，臣甘愿受罚！”
+<br> &emsp;&emsp;就这样，罗基武成功归朝，而他归朝后，立即提出了要接见古闻鸡。
+<br> &emsp;&emsp;古闻鸡在得知此事后，甚是欢喜，当即决定前去见基武哥。
+<br> &emsp;&emsp;可他的副官拦住了他，说道：“这事万万不可，基文村长暂不明事态，可能要趁机除掉您啊！”
+<br> &emsp;&emsp;古闻鸡勃然大怒：“你个肖勾勾，你是想破坏基文村的统一吗？”
+<br> &emsp;&emsp;“肖勾勾”，原为人各，是过去的一个大贱种，无恶不作，传闻其最终被一位名为古唧的义士打败。而后，肖勾勾的名字就成了骂人的词语。
+<br> &emsp;&emsp;猜疑链就这样在两人心有灵犀的信任面前被砸碎，而古闻鸡义无反顾地前去见了罗基武。
+<br> &emsp;&emsp;一见面，罗基武便开门见山地说道：“嚯，听说你想叛乱啊？”
+<br> &emsp;&emsp;“没有没有，没有的事，我怎么会想反叛您呢？”
+<br> &emsp;&emsp;“嗯，我想也是。”
+<br> &emsp;&emsp;不多久后，古闻鸡便宣布归顺基文村政府。一段时间之后，李云君也宣布归顺。
+<br> &emsp;&emsp;三人又得以坐在一起，为表彰两人的贡献，基文村长将古闻鸡提拔为基文村副村长，将李云君提拔为钦差大臣。当然，此次提拔对外宣称的是为平定民心。
+<br> &emsp;&emsp;……
+<br> &emsp;&emsp;然而还点小把戏自然骗不过周昀离的眼睛。
+<br> &emsp;&emsp;“竟然敢骗我，到时候有你们好看的！军队都准备好了吗？”
+<br> &emsp;&emsp;“时刻准备着！随时可以出征！”
+<br> &emsp;&emsp;“好！”
+<br> &emsp;&emsp;……
+<br> &emsp;&emsp;暴风雨自然并未远去，只是短暂地处在了台风眼中令人窒息的平静中。
+
+
+            
+        </div>
+    </section>
+      
+    
+
+    </section>
+
+    <section id="tiaozhuan" class="full-section">
+        <h2>跳转到：</h2>
+        <ol>
+            <li><a href="./1.html">第一章</a></li>
+            <li><a href="./2.html">第二章</a></li>
+            <li><a href="./3.html">第三章</a></li>
+            <li><a href="./4.html">第四章</a></li>
+            <li><a href="./5.html">第五章</a></li>
+            <li><a href="./6.html">第六章</a></li>
+            <li><a href="./7.html">第七章</a></li>
+            <li><a href="./8.html">第八章</a></li>
+            <li><a href="./9.html">第九章</a></li>
+            <li><a href="./10.html">第十章</a></li>
+            <li><a href="./11.html">第十一章</a></li>
+            <li><a href="./12.html">第十二章</a></li>
+            <li><a href="./13.html">第十三章</a></li>
+            
+        </ol>
+    </section>
+
+    <section id="link" class="full-section">
+        <h2>联系我们</h2>
+        <p style="color: #a5a278; margin-bottom: 20px;">讨论QQ群：1056740196</p>
+        <a href="https://jntm.zkllab.com/">🐓</a>
+    </section>
+</body>
+<script>
+function sa(){
+      alert("要来了...")
+}
+const track=document.querySelector('.a1');
+const imgs=document.querySelectorAll('.a1 img');
+let index=0;
+track.style.width=`${imgs.lenth*600}px`;
+setInterval(()=>{
+    index=(index+1)%imgs.length;
+    track.style.transform=`translateX(-${index*600}px)`;
+},3000);
+</script>
+
+
+</html>

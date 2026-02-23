@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一章</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 200px;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    line-height: 1.8; 
+    background-color:#bebeb5;
+    color: #333;
+    overflow-x: hidden;
+}
+.full-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    position: relative;
+}
+nav{
+    background: #a5a278;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+.logo{
+    opacity: 70%;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 10%;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+#home{
+    padding-top: 100px;
+}
+.vd{
+    width: 600px;
+    height: 400px;
+}
+
+.a1 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.a1{
+   width: 100%;
+   height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+.A1{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px #3333339e;
+    
+}
+.tou{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+.tou:hover{
+    background-color: #7a785b;
+}
+.dakuang{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px;
+
+
+}
+.tup img{
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px #3333335d;
+}
+/* @keyframes aa{
+    0%,25%{
+        transform:translateX(0);
+    }
+    33%,50%{
+         transform:translateX(-33%);
+    }
+    66%,90%{
+        transform:translateX(-66%);
+    }
+    100%{
+         transform:translateX(0);
+    }
+} */
+
+</style>
+<body>
+    <nav>
+        <img onclick="sa('你点这个干啥')" class="logo" src="./4548F0DA710AB7B290D072DD3028E719.jpg" alt="1">
+        <div class="tou"><a href="./dyss.html">首页</a></div>
+        <div class="tou"><a href="#home">回到标题</a></div>
+        <div class="tou"><a href="#tiaozhuan">章节跳转</a></div>
+        <div class="tou"><a href="#link">联系我们</a></div>
+        
+        
+        
+    </nav>
+    <section id="home" class="full-section">
+        <div class="avatar-wrap" id="avatarWrap">
+
+            <h1>第一章 启程</h1>
+            <p style="color: #787657; margin-bottom: 20px;">本章作者：小谷歌</p>
+            <p style="line-height: 1.8; color: #3e3c2e; font-size: 16px; width: auto;">
+            &emsp;&emsp;    初秋的都城，阳光透过高耸的飞檐，在青石板路上投下斑驳的光影。<br>
+    &emsp;&emsp;街道上，人流如织，车马喧嚣，贩夫走卒的吆喝声、商贾讨价还价的争执声、轿夫整齐的号子声交织成一曲沸腾的市井交响。空气中弥漫着刚出炉的炊饼香气、脂粉铺的甜腻、以及城市特有的喧闹。
+朱漆的楼阁鳞次栉比，挂着各式招幌，丝绸庄流光溢彩，茶馆里人声鼎沸，无处不彰显着这座都城的极致繁华与活力。<br>
+    &emsp;&emsp;罗基武、古闻鸡、李云君一行三人正站在街头，带着难以掩饰的震撼与初临陌生之境的茫然，望着这一片繁华，这是三人第二次来到都城，上一次来是为了科考而这一次则是到了放榜的时候。
+三人随着沉重而缓慢的人流，终于挪到了教育局外那片巨大的青石广场。公示栏就矗立在广场中央，像一块巨大的磁石，吸引着无数焦灼的灵魂，又像一道无形的壁垒，排斥着人们靠近。
+前方不时传来狂喜的呐喊：“我中了！我中了！”而这股欢喜又迅速被更多的、沉重的叹息所淹没。甚至还有一位范氏考生在得知中举的消息后当场发疯，被一旁守候的精神科医生拖走了，此时人们终于明白为什么放榜处要配备精神科医生。三人见到眼前这残酷的众生相，只剩下越来越重的焦灼和不安。
+仿佛经历了一个世纪那么漫长，他们终于被推挤到了公示栏前。巨大的黄纸上，密密麻麻写满了墨色名字。三双眼睛如同饥饿的鹰隼，在榜单上疯狂地逡巡搜索。空气仿佛凝固了，只有心脏在胸腔里擂鼓般撞击。在一遍又一遍地搜索后，三人不得不承认一个事实：三人中只有古闻鸡一人中举。
+    &emsp;&emsp;三人挤出人群来到街上，想要脱离榜前那沉闷的空气，可街上终究也不是谈事的地方，于是三人走进了街旁的一个小酒馆。<br>
+    &emsp;&emsp;“祝贺闻鸡兄成功科考上岸！来，干杯！”罗基武与李云君向古闻鸡敬酒道。看着从小至交的两人，而如今却只有自己一人中举，心中五味杂陈，古闻鸡举起酒碗，郑重地说：“谢二位兄弟！今日……实属侥幸。若无二位一路扶持，我断无今日。”古闻鸡顿了顿，又说到：“只是今日只有我一人中举…不知你俩今后何从？”
+罗基武笑道：“我本一介武夫，吃了狗屎运跟你们两位人才搭上关系，我已经知足了，我打算回乡继续习武，将来给你俩做保镖，哈哈哈！”说罢，将手中的一碗酒一饮而尽。
+而李云君则表明："今年不成明年再战，明年不成后年再战，总有考上的一日。我李云君不说别的，这点韧性还是有。"<br>
+    &emsp;&emsp;三人自幼时便是相识，古闻鸡自幼便在学习上体现了超乎常人的天赋，却在体力上奇差。相比之下，罗基武则是另一个极端，有着超强的武力值，却对学习上的事一窍不通。最后，两人分别成为了同乡中的文武第一人。而李云君则更像是两人的中和体，文武双修，做着三人间的调和剂，在古闻鸡与罗基武闹矛盾时充当和事佬。
+<br>   &emsp;&emsp;离别的日子最终还是来了，罗基武和李云君很快就到了该回乡的时候，古闻鸡将二人送行至了火车站。<br>
+    &emsp;&emsp;在火车站前，三人相拥而泣，古闻鸡对二人说道：“明年我们再在都城相见，希望到时候，我们都能各有成就。”罗基武说：“你以后就是我在都城的人脉了，可一定要往上爬啊，要是让人欺负了就给哥们儿说，哥们儿帮你讨公道。”李云君说：“我明年科举可也就仰仗你扶持了，可一定不要忘记我啊。"
+    &emsp;&emsp;古闻鸡看着两人，郑重承诺："基武哥放心，闻鸡必不负所托，努力前行。云君老弟，明年备考所需，我定当竭力相助。我们…明年都城见！"<br>
+    &emsp;&emsp;“呜——”火车悠长的汽笛声催促着旅人，三人再次挥别后，罗基武与李云君走上了回乡的火车。<br>
+    &emsp;&emsp;“保重”<br>
+    &emsp;&emsp;“保重”<br>
+    &emsp;&emsp;“明年见”<br>
+    &emsp;&emsp;在火车远去后，古闻鸡转身走向逆光中，盘算着如何在官场立足。而此时在火车上，罗基武正擦拭着随身的配刀，若有所思，李云君则是捧着一卷经书，准备着明年的科举。
+这样，在共同的约定下，三人各自走向崭新而未知的未来。
+</p>
+            
+           
+            
+        </div>
+    </section>
+      
+    
+
+    </section>
+
+    <section id="tiaozhuan" class="full-section">
+        <h2>跳转到：</h2>
+        <ol>
+            <li><a href="./1.html">第一章</a></li>
+            <li><a href="./2.html">第二章</a></li>
+            <li><a href="./3.html">第三章</a></li>
+            <li><a href="./4.html">第四章</a></li>
+            <li><a href="./5.html">第五章</a></li>
+            <li><a href="./6.html">第六章</a></li>
+            <li><a href="./7.html">第七章</a></li>
+            <li><a href="./8.html">第八章</a></li>
+            <li><a href="./9.html">第九章</a></li>
+            <li><a href="./10.html">第十章</a></li>
+            <li><a href="./11.html">第十一章</a></li>
+            <li><a href="./12.html">第十二章</a></li>
+            <li><a href="./13.html">第十三章</a></li>
+            
+            
+        </ol>
+    </section>
+
+    <section id="link" class="full-section">
+        <h2>联系我们</h2>
+        <p style="color: #a5a278; margin-bottom: 20px;">讨论QQ群：1056740196</p>
+        <a href="https://jntm.zkllab.com/">🐓</a>
+    </section>
+</body>
+<script>
+function sa(){
+      alert("不赖，我们的友谊坚不可摧！")
+}
+const track=document.querySelector('.a1');
+const imgs=document.querySelectorAll('.a1 img');
+let index=0;
+track.style.width=`${imgs.lenth*600}px`;
+setInterval(()=>{
+    index=(index+1)%imgs.length;
+    track.style.transform=`translateX(-${index*600}px)`;
+},3000);
+</script>
+
+
+</html>
