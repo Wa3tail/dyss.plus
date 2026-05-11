@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第十七章</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    padding-top: 200px;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+    line-height: 1.8; 
+    background-color:#bebeb5;
+    color: #333;
+    overflow-x: hidden;
+}
+.full-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    position: relative;
+}
+nav{
+    background: #a5a278;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+.logo{
+    opacity: 70%;
+    width: 80px;
+    height: 80px;
+    flex: 0 0 10%;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+#home{
+    padding-top: 100px;
+}
+.vd{
+    width: 600px;
+    height: 400px;
+}
+
+.a1 img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.a1{
+   width: 100%;
+   height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+.A1{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px #3333339e;
+    
+}
+.tou{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+.tou:hover{
+    background-color: #7a785b;
+}
+.dakuang{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px;
+
+
+}
+.tup img{
+    width: 300px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px #3333335d;
+}
+/* @keyframes aa{
+    0%,25%{
+        transform:translateX(0);
+    }
+    33%,50%{
+         transform:translateX(-33%);
+    }
+    66%,90%{
+        transform:translateX(-66%);
+    }
+    100%{
+         transform:translateX(0);
+    }
+} */
+
+</style>
+<body>
+    <nav>
+        <img onclick="sa('你点这个干啥')" class="logo" src="./4548F0DA710AB7B290D072DD3028E719.jpg" alt="1">
+        <div class="tou"><a href="./index.html">首页</a></div>
+        <div class="tou"><a href="#home">回到标题</a></div>
+        <div class="tou"><a href="#tiaozhuan">章节跳转</a></div>
+        <div class="tou"><a href="#link">联系我们</a></div>
+        
+        
+        
+    </nav>
+    <section id="home" class="full-section">
+        <div class="avatar-wrap" id="avatarWrap">
+
+            <h1>第十七章 基文市会战（中）</h1>
+            <p style="color: #787657; margin-bottom: 20px;">本章作者：小谷歌 周加圆</p>
+            <p style="line-height: 1.8; color: #3e3c2e; font-size: 16px; width: auto;">
+             
+<br>  &emsp;&emsp;数分钟前，周国炮兵阵地
+<br>  &emsp;&emsp;“报！八点钟方向发现敌机动部队，正急速向我们奔来，预计20分钟后接敌！”炮兵部队的斥候急急忙忙地跑来向炮兵营长报告。
+<br>  &emsp;&emsp;原来，按古闻鸡的部署，李云君早已带队埋伏在了城外，就等城内陷入巷战，难以抽身之际，向周国炮兵发起突袭，使周国首尾不能兼顾。周国这波纯纯是属于一根筋变两头堵了。
+<br>  &emsp;&emsp;李云君坐在一辆装甲车上，有条不紊地指挥着突袭部队：“同志们，古闻鸡将我们几乎所有机动装甲力量都给了我们，我们一定要压制住他们的炮兵，减轻城内的压力！根据侦查报告，周国主力装甲部队都调到了基文市内，这里没多少守军，一定要胜利，不要让我大基村蒙羞！”
+<br>  &emsp;&emsp;正如李云君所说，周国已将主力装甲部队调向了城内巷战，守卫炮兵阵地的只有几辆轻型坦克和数十辆装甲车。而且出乎李云君意料的是，为保证进攻节奏，周昀离在没有炮兵掩护的情况下就冲进了基文市，此时的周国炮兵阵地还正在架设，所以甚至设想中的炮火压制也没有发生。
+<br>  &emsp;&emsp;随着距离的靠近，李云君的视野里出现了前来拦截的周国军队。“哈哈，他们果然兵力不足，一分队，作为前锋，以锥形阵形撕破敌阵，二分队殿后，其余分队随一分队保持速度直扑炮兵阵地。不要在这些杂鱼身上浪费时间！”
+<br>  &emsp;&emsp;在这边进入交锋的同时，周国炮兵阵地也是一片混乱。
+<br>  &emsp;&emsp;“营长！快重新架设阵地，和地面部队一起打退他们！”
+<br>  &emsp;&emsp;“营长！还是快急电大王，请求支援！”
+<br>  &emsp;&emsp;“营长！我们守不住的，还是赶紧撤退吧，保留有生力量！”
+<br>  &emsp;&emsp;阵地上，属下们七嘴八舌地向炮兵营长建议道。炮兵营长眉头紧锁，半晌，他下定了决心：“我们还是先电告大王，让大王下决断，我们私自撤退是违抗军令的！”
+<br>  &emsp;&emsp;说罢，炮兵营长拿起步话机，正要接通频道，他又恍然想起副官那句“回去再找你算账”。是啊，副官想让他闭嘴，这次又出了这么大的乱子，不论能否守下，副官一定都会想嫁祸于他。虽然大王圣明，可万一听信了副官的谗言，要置他于死地？他赌不起这条命。
+<br>  &emsp;&emsp;想到这里，炮兵营长心中早已是一团乱麻。报，还是不报？一个大胆的想法在他的心里酝酿起来——投降？不不不，这不是为了私利，只是为了免于副官的迫害，对，这是投诚，只是辜负了大王对自己的信任。可自己的下属们会同意吗，万一直接把自己就地处决？反正自己没有妻儿，只有自己的烂命一条，早已是光脚的不怕穿鞋的。信副官发良心不搞他也是赌，信自己能成功投诚也是赌，那还是信自己更信得过。
+<br>  &emsp;&emsp;基文村军队就在眼前，已经没有时间再给自己纠结了。说干就干，他向部下们问道：“你们觉得大王的副官是个怎样的人？”
+<br>  &emsp;&emsp;下属们面面相觑，琢磨着他的话里是什么意思。不等众人回答，他又继续道：“那门意大利炮明明就是他买的时候不知道卡了多少回扣，却要嫁祸给我们。现在基文村又突袭我们，即使我们能守下来也一定是损失惨重，他恐怕又要拿这事在大王面前做文章，我们是在劫难逃。”
+<br>  &emsp;&emsp;远处，地面部队的阵形已被冲散，李云君的部队已如入无人之境，逼着众人尽快做出决断。
+<br>  &emsp;&emsp;“既然如此，我们何不考虑投靠基文村？我知道你们有的有妻儿，有的还是想报效大王，你们要走的可以悄摸摸地走，我们好歹也是这么久的战友，不会阻挠大家的。”
+<br>  &emsp;&emsp;……
+<br>  &emsp;&emsp;无线电杂音刺啦刺破耳膜，城外的消息还是一片迷雾。李云君已成功接管投诚的炮兵阵地，炮弹不分敌我砸进周国军队阵中。﻿
+<br>  &emsp;&emsp;硝烟弥漫里，周昀离扶着身旁断墙站稳，眉宇间不见半分慌乱，唯有冷冽的杀伐之气。他抬手按住腰间佩剑，目光扫过节节败退、险些溃散的士卒，沉声喝止了乱作一团的队伍。
+<br>  &emsp;&emsp;“慌什么！稳住阵形，不许溃散！没有炮兵的支援，我们还是实力强于基文村。从我们战斗的数据看，敌人的力量多聚集在这里，意图将我们困在这里，这也就意味着他们的内部是兵力空虚的。我们直接突袭议事厅，古闻鸡和罗基武就在那里，我们将他俩拿下，基文村军队自会不攻自破，胜利还是我们的！”
+<br>  &emsp;&emsp;“传令！挑两百精锐，佯装主力，全力猛攻城墙缺口，枪炮齐鸣，做出拼死突围之势，把基文村军队所有火力全吸过去！剩余主力，随我掉头，突袭城内议事厅！”﻿军令落下，周军士卒瞬间整肃阵形。两百精兵呐喊着冲向缺口，子弹密集如雨，声势震天，成功将基文村守军的注意力全数牵制，所有火力尽数倾泻向缺口方向，全然没留意身后的异动。
+<br>  &emsp;&emsp;周昀离一身战袍染着硝烟，亲率主力借着街巷掩体、残垣断壁掩护，悄无声息反向突进，刀锋直指对方指挥核心，大军一路疾行，朝着议事厅方向压进。﻿
+<br>  &emsp;&emsp;而某栋建筑内，古闻鸡正端坐主位，指尖轻叩案几，在作战地图上标注着各处的战斗报告。看着缺口附近和议事厅方向越来越密集的接敌报告，古闻鸡笑道：“终于来了啊，能在这混乱战局中找到薄弱处制定战术，果然没有小瞧你。”
+
+
+           
+            
+        </div>
+    </section>
+      
+    
+
+    </section>
+
+    <section id="tiaozhuan" class="full-section">
+        <h2>跳转到：</h2>
+        <ol>
+            <li><a href="./1.html">第一章</a></li>
+            <li><a href="./2.html">第二章</a></li>
+            <li><a href="./3.html">第三章</a></li>
+            <li><a href="./4.html">第四章</a></li>
+            <li><a href="./5.html">第五章</a></li>
+            <li><a href="./6.html">第六章</a></li>
+            <li><a href="./7.html">第七章</a></li>
+            <li><a href="./8.html">第八章</a></li>
+            <li><a href="./9.html">第九章</a></li>
+            <li><a href="./10.html">第十章</a></li>
+            <li><a href="./11.html">第十一章</a></li>
+            <li><a href="./12.html">第十二章</a></li>
+            <li><a href="./13.html">第十三章</a></li>
+            <li><a href="./14.html">第十四章</a></li>
+            <li><a href="./15.html">第十五章</a></li>
+            <li><a href="./16.html">第十六章</a></li>
+            <li><a href="./17.html">第十七章</a></li>
+
+
+            
+            
+        </ol>
+    </section>
+
+    <section id="link" class="full-section">
+        <h2>联系我们</h2>
+        <p style="color: #a5a278; margin-bottom: 20px;">讨论QQ群：1056740196</p>
+        <a href="https://jntm.zkllab.com/">🐓</a>
+    </section>
+</body>
+<script>
+function sa(){
+      alert("暂无热评，不过这句也是文案")
+}
+const track=document.querySelector('.a1');
+const imgs=document.querySelectorAll('.a1 img');
+let index=0;
+track.style.width=`${imgs.lenth*600}px`;
+setInterval(()=>{
+    index=(index+1)%imgs.length;
+    track.style.transform=`translateX(-${index*600}px)`;
+},3000);
+</script>
+
+
+</html>
